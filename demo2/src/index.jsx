@@ -1,32 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AnswerMulChoiceQuetion from './AnswerMulChoiceQuetion';
+import CommentBox from './components/commentBox';
 
-var choices = ['question1', 'question2', 'question3', 'question4'];
-ReactDOM.render(<AnswerMulChoiceQuetion />, document.getElementById('content'));
+let data = [
+    {author:'hcxowe', text:'this is first comment'},
+    {author:'hcxowe', text:'this is second comment'}
+];
 
-var React = require('react');
-var PropTypes = React.PropTypes;
-
-var Test = React.createClass({
-    componentDidMount: function() {
-
-    },
-    componentDidUpdate: function(prevProps, prevState) {
-        
-    },
-    componentWillMount: function() {
-
-    },
-    setState({
-        :
-    });
-    render: function() {
-        return (
-            <div />
-        );
-    }
-
-});
-
-module.exports = Test;
+ReactDOM.render(<CommentBox data={data}/>, document.getElementById('content'));
