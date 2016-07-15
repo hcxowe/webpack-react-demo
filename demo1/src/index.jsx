@@ -55,4 +55,4 @@ var Hello = React.createClass({
     }
 });
 
-ReactDOM.render(<Hello name='贺昌雄'>hcxowe</Hello>, document.getElementById('content'));
+ReactDOM.render(<Hello name='323232323'>hcxowe</Hello>, document.getElementById('content'));
