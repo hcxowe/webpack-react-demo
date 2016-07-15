@@ -1,5 +1,5 @@
-import { Button } from 'antd';
-import 'antd/dist/antd.css';
+import Button from 'antd/lib/button';
+import 'antd/lib/button/style/index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
